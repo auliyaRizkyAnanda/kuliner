@@ -1,0 +1,94 @@
+
+.blog-grid {
+    padding: 100px;
+    background-color: #f8f8f8;
+}
+
+.blog-grid h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    border-top: 1px solid #eee; /* Garis atas pada container */
+    border-left: 1px solid #eee;
+    margin-left: -1px;
+    align-items: center;
+
+}
+
+.grid-item {
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    margin-top: -1px;
+    margin-right: -1px;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.grid-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.grid-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    color: #333;
+    transition: color 0.3s ease; /* Transisi warna untuk hover */
+}
+
+.grid-item .meta {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.grid-item p {
+    color: #555;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.grid-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.grid-item a:hover h3 {
+    color: #007bff; /* Warna judul saat hover */
+}
+
+/* Menghapus style hover pada seluruh item, hanya judul yang bereaksi */
+.grid-item:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.grid-item {
+    padding: 0;
+    border-bottom: 1px solid #eee; 
+
+    margin: 30px; 
+    padding-bottom: 20px; 
+}
+
+.grid-item.last-in-row { 
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.truncate {
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    width: 200px; 
+}

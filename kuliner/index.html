@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerserahKamyu</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/image/logo.png">
+    <link rel="stylesheet" href="/css/kuliner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+       <header class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di TerserahKamyu</h1>
+            <p>Jelajahi keanekaragaman rasa dan budaya melalui hidangan khas Nusantara.</p>
+            <a href="#tentang-kami" class="cta-button">Jelajahi</a>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#hero">TerserahKamyu</a>
+                <button class="navbar-toggler" onclick="toggleMenu()">
+                    <span>&#9776;</span>
+                </button>
+                <div class="navbar-menu" id="navbarMenu">
+                    <ul>
+                        <li><a href="#tentang-kami">Tentang Kami</a></li>
+                        <li><a href="#menu">Resep</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#testimonials">Testimoni</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+<main>
+    <section id="tentang-kami">
+        <div class="container">
+            <div class="tentang-kami-content">
+                    <div class="testimonial-quote">
+                        <h2>Tentang Kami</h2>
+                        <p>Selamat datang di TerserahKamyu, tempat di mana kebingungan memilih makanan berakhir! Kami memahami betapa sulitnya menentukan pilihan ketika ditanya, "Mau makan apa?" dan seringkali jawaban yang keluar hanyalah "Terserah." Di sini, kami hadir sebagai solusi untuk mengatasi dilema tersebut. Dengan berbagai pilihan kuliner yang menggugah selera, kami membantu Anda menemukan hidangan yang tepat sesuai suasana hati dan keinginan. Dari makanan cepat saji hingga hidangan gourmet, kami menyediakan rekomendasi yang dapat memuaskan selera Anda. Mari jelajahi dunia kuliner bersama kami dan temukan inspirasi makan yang tidak pernah terpikirkan sebelumnya!</p>      
+                    </div>
+               
+            </div>
+        </div>
+    </section>
+    <section id="galeri">
+        <div class="gallery-wrapper">
+            <div class="gallery-grid">
+                <img src="/image/nasgor.jpg" alt="Nasi Goreng">
+                <img src="/image/sate.jpg" alt="Sate">
+                <img src="/image/soto.jpg" alt="Soto Ayam">
+                <img src="/image/ayamGoreng.jpg" alt="Ayam Goreng">
+                <img src="/image/ayamBakar.jpg" alt="ayam bakar">
+                <img src="/image/bubur.jpg" alt="bubur ayam">
+                <img src="/image/nasgor.jpg" alt="Nasi Goreng">
+                <img src="/image/sate.jpg" alt="Sate">
+                <img src="/image/soto.jpg" alt="Soto Ayam">
+                <img src="/image/ayamGoreng.jpg" alt="Ayam Goreng">
+                <img src="/image/ayamBakar.jpg" alt="ayam bakar">
+                <img src="/image/bubur.jpg" alt="bubur ayam">
+                <img src="/image/nasgor.jpg" alt="Nasi Goreng">
+                <img src="/image/sate.jpg" alt="Sate">
+                <img src="/image/soto.jpg" alt="Soto Ayam">
+                <img src="/image/ayamGoreng.jpg" alt="Ayam Goreng">
+                <img src="/image/ayamBakar.jpg" alt="ayam bakar">
+                <img src="/image/bubur.jpg" alt="bubur ayam">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Resep</h2>
+            <div class="menu-slider">
+                <button class="slider-button prev-button" id="prevMenuBtn">
+                    &lt;
+                </button>
+                <div class="menu-grid" id="menuGrid">
+                    <div class="menu-item">
+                        <a href="/html/ayamBakar.html"><img src="/image/ayamBakar.jpg" alt="Nasi Goreng Spesial">
+                        <h3>Ayam bakar</h3>
+                        <p>ayam bakar dengan kecap meresap sampai ke tulang</p>
+                    </a></div>
+                    <div class="menu-item">
+                        <a href="/html/sateAyam.html"><img src="/image/sate.jpg" alt="Sate Ayam Madura">
+                        <h3>Sate Ayam Madura</h3>
+                        <p>Sate ayam dengan bumbu kacang khas Madura.</p>
+                    </a></div>
+                    <div class="menu-item">
+                        <a href="/html/rendang.html"><img src="/image/rendang.jpg" alt="Rendang Daging Sapi">
+                        <h3>Rendang Daging</h3>
+                        <p>Rendang daging dengan bumbu rempah yang kaya.</p>
+                    </a></div>
+                    <div class="menu-item">
+                        <a href="/html/nasiGoreng.html"><img src="/image/nasgor.jpg" alt="Nasi Goreng Spesial">
+                        <h3>Nasi Goreng Spesial</h3>
+                        <p>Nasi goreng dengan ayam, udang, telur, dan bumbu spesial.</p>
+                    </a></div>
+                    <div class="menu-item">
+                        <a href="/html/sotoAyam.html"><img src="/image/soto.jpg" alt="Sate Ayam Madura">
+                        <h3>Soto Ayam</h3>
+                        <p>Soto ayam dengan kuah bening tanpa santan</p>
+                    </a></div>
+                </div>
+                <button class="slider-button next-button" id="nextMenuBtn">
+                    &gt;
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h2>Blog Terbaru</h2>
+            <div class="blog-grid">
+                <div class="blog-item">
+                    <a href="https://www.liputan6.com/feeds/read/5805653/aneka-resep-toge-dimasak-apa-40-kreasi-lezat-dan-bergizi" target="_blank">
+                        <img src="/image/artikel1.png" alt="Judul Artikel 1">
+                        <h3>Aneka Resep Toge Dimasak Apa: 40 Kreasi Lezat dan Bergizi</h3>
+                        <p class="blog-meta2">Toge atau tauge merupakan salah satu sayuran yang mudah ditemui dan sering digunakan dalam berbagai masakan. Teksturnya yang renyah dan rasanya yang segar membuat toge menjadi bahan yang versatile untuk diolah menjadi berbagai hidangan lezat. Namun, terkadang kita bingung toge dimasak apa agar tidak monoton. Artikel ini akan membahas 41 resep kreatif mengolah toge menjadi hidangan yang menggugah selera dan kaya nutrisi.</p>
+                        <p class="blog-meta">Natal Craig 14 Jan 2024</p>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="https://www.liputan6.com/feeds/read/5861924/resep-es-kopyor-segar-dan-nikmat-untuk-berbuka-puasa-praktis-lepas-dahaga" target="_blank">
+                        <img src="/image/artikel2.png" alt="Judul Artikel 2">
+                        <h3>Resep Es Kopyor Segar dan Nikmat untuk Berbuka Puasa, Praktis Lepas Dahaga</h3>
+                        <p class="blog-meta2">Es kopyor merupakan salah satu minuman segar favorit yang sering dijadikan menu berbuka puasa. Kelezatan dan kesegarannya mampu melepas dahaga setelah seharian berpuasa. Meski menggunakan kelapa kopyor asli cukup sulit didapatkan, kita tetap bisa menikmati es kopyor dengan membuat versi imitasinya yang tak kalah nikmat.</p>
+                        <p class="blog-meta">Drew Cana 13 Jan 2024</p>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="https://www.liputan6.com/feeds/read/5862029/resep-milk-bun-thailand-yang-viral-cara-membuat-roti-lembut-dan-lezat" target="_blank">
+                        <img src="/image/artikel3.png" alt="Judul Artikel 3">
+                        <h3>Resep Milk Bun Thailand yang Viral: Cara Membuat Roti Lembut dan Lezat</h3>
+                        <p class="blog-meta2">Milk bun Thailand atau roti susu Thailand belakangan ini tengah viral dan menjadi perbincangan di media sosial. Roti yang terkenal dengan teksturnya yang super lembut dan taburan susu bubuk di atasnya ini menarik perhatian banyak pecinta kuliner. </p>
+                        <p class="blog-meta">Diposting pada 10 Januari 2024</p>
+                    </a>
+                </div>
+            </div>
+            <a href="/html/blog.html" class="cta-button">  Lihat Semua
+            </a>
+        </div>
+    </section>
+
+   
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimoni</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="bintang" data-rating="5"></div>
+                        <p>"Website ini sangat mudah digunakan dan informasinya lengkap. Saya sangat terbantu!"</p>
+                    </div>
+                    <div class="testimonial-info">
+                        <h3>Budi Santoso</h3>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="bintang" data-rating="3"></div>
+                        <p>"Tampilan aplikasinya bagus, tapi terkadang agak lambat. Semoga bisa diperbaiki di update selanjutnya."</p>
+                    </div>
+                    <div class="testimonial-info">
+                        <h3>Ani Putri</h3>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="bintang" data-rating="4"></div>
+                        <p>"Saya suka dengan fitur-fitur yang ada di website ini. Sangat membantu pekerjaan saya."</p>
+                    </div>
+                    <div class="testimonial-info">
+                        <h3>Joko Susilo</h3>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="bintang" data-rating="5"></div>
+                        <p>"Aplikasi ini sangat intuitif dan mudah dipahami. Saya merekomendasikannya kepada teman-teman saya."</p>
+                    </div>
+                    <div class="testimonial-info">
+                        <h3>Dewi Lestari</h3>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="bintang" data-rating="2"></div>
+                        <p>"Website ini tampilannya bagus, tetapi navigasinya agak membingungkan. Perlu ada perbaikan di bagian ini."</p>
+                    </div>
+                    <div class="testimonial-info">
+                        <h3>Rudi Hartono</h3>
+                    </div>
+                </div>
+    
+                </div>
+        </div>
+    </section>
+    
+    <div class="tombol-tanya" onclick="tampilkanModal()">
+        <i class="fas fa-pencil-alt fa-2x"></i>
+      </div>
+      
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="tutupModal()">&times;</span>
+          <h2>Ulasan</h2>
+          <p id="reminder"><span>*</span> Harap diisi untuk mengirimkan ulasan</p>
+          <form id="formPertanyaan">
+            <label for="nama">Nama Anda<span>*</span></label><br>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Anda" required><br><br>
+      
+            <label for="email">Email Anda<span>*</span></label><br>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required><br><br>
+            
+            <label for="rating" required>Rating<span>*</span></label><br>
+                <div class="rating">
+                <i class="fas fa-star fa-2x" data-rating="1"></i>
+                <i class="fas fa-star fa-2x" data-rating="2"></i>
+                <i class="fas fa-star fa-2x" data-rating="3"></i>
+                <i class="fas fa-star fa-2x" data-rating="4"></i>
+                <i class="fas fa-star fa-2x" data-rating="5"></i>
+                </div>
+            <input type="hidden" id="nilaiRating" name="rating" value="0">
+
+            <label for="pesan">Beri Komentar<span>*</span></label><br>
+            <textarea id="pesan" name="pesan" rows="5" placeholder="Masukkan email Anda" required></textarea><br><br>
+      
+            <input type="submit" value="Kirim">
+          </form>
+        </div>
+      </div>
+    </main>
+      
+      <aside>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2>Unduh Aplikasi Kami</h2>
+              <p>Nikmati kemudahan mencari referensi makan hari ini melalui aplikasi kami.</p>
+              <div class="app-links">
+                <a href="#" target="_blank" class="app-link">
+                  <img src="google-play-icon.png" alt="Google Play">
+                  <span>Google Play</span>
+                </a>
+                <a href="#" target="_blank" class="app-link">
+                  <img src="app-store-icon.png" alt="App Store">
+                  <span>App Store</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <h2>Informasi Kami</h2>
+              <div class="social-icons">
+                <p>Email: TerserahKamyu@makan.com</p>
+                <p>Telepon: (021) 123-4567</p>
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </aside>    
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TerserahKamyu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/js/kuliner.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</body>
+</html>

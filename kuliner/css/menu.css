@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+h1, h2, h3 {
+    font-weight: bold;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.bahan, .cara-membuat {
+    margin-bottom: 20px;
+}
+ul, ol {
+    padding-left: 20px;
+}
+img {
+    width: 300px; /* Lebar 300 piksel */
+    height: 200px; /* Tinggi 200 piksel */
+    display: block;
+    margin: 10px auto;
+}
+.tips {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
